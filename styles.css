@@ -1,0 +1,108 @@
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: 'Roboto', Tahoma, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: darkred;
+}
+
+#main {
+  margin: 20px 6px;
+  padding: 11px;
+  border-radius: 6px;
+  background: #2333;
+}
+
+.former {
+  padding: 0px 0px 20px 0px;
+}
+
+.achievements {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#list-header {
+  font-size: 2rem;
+  padding-bottom: 25px;
+}
+
+a {
+  color: #7865df;
+}
+
+a:visited {
+  color: #665544;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 10px 05px 0;
+  font-size: 11px;
+}
+
+#tribute-link {
+  color: green;
+}
+
+#tribute-info {
+  color: black;
+  padding: 30px;
+}
+
+ul {
+  margin: 0px auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.list li {
+  margin-bottom: 25px;
+}
+
+@media (max-width:768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .achievements {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+  #tribute-info {
+    padding: 0px 0px 30px 0px;
+  }
+}
+
+@media (max-width:460px) {
+  #main {
+    margin: -16px;
+  }
+
+  .achievements {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+  #tribute-info {
+    padding: 0px 0px 30px 0px;
+  }
+}  
