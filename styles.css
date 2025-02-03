@@ -3,10 +3,29 @@ html {
 }
 
 body {
-  font-family: 'Roboto', Tahoma, sans-serif;
-  font-size: 1.5rem;
+  font-family: "EB Garamond", 'Roboto', Tahoma, sans-serif;
+  font-size: 1.7rem;
   text-align: center;
   color: darkred;
+}
+
+.first-letter {
+  font-family: "Berkshire Swash", cursive, serif;
+  font-size: 6rem;
+  color: darkred;
+}
+
+.rest-of-name {
+  font-family: "Chicle", "EB Garamond", serif;
+  font-size: 5rem;
+  font-weight: 400;
+  color: darkred
+}
+
+.former {
+  font-family: "EB Garamond", "Chicle", serif;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 #main {
@@ -14,10 +33,6 @@ body {
   padding: 11px;
   border-radius: 6px;
   background: #2333;
-}
-
-.former {
-  padding: 0px 0px 20px 0px;
 }
 
 .achievements {
@@ -43,26 +58,32 @@ img {
   display: block;
   height: auto;
   margin: 0 auto;
+  border-radius: 6px;
 }
 
 #img-div {
-  background: white;
-  padding: 10px;
+  background: rgb(250, 248, 248);
+  padding: 20px 20px 20px 20px;
   margin: 0;
+  border-radius: 6px;
 }
 
 #img-caption {
   margin: 10px 05px 0;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 #tribute-link {
-  color: green;
+  color: red;
 }
 
 #tribute-info {
-  color: black;
-  padding: 30px;
+  color: white;
+  background: darkred;
+  padding: 1px 20px 20px 20px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border-radius: 6px;
 }
 
 ul {
@@ -75,6 +96,10 @@ ul {
 
 .list li {
   margin-bottom: 25px;
+}
+
+footer {
+  padding-top: 30px;
 }
 
 @media (max-width:768px) {
