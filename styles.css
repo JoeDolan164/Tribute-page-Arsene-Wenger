@@ -10,7 +10,7 @@ body {
   font-family: "Open-sans", "Roboto", Tahoma, sans-serif;
   font-size: 1.7rem;
   text-align: center;
-  color: black;
+  color: darkred;
 }
 
 .first-letter {
@@ -43,12 +43,12 @@ body {
     -0.5px 0.5px 0 black,
     -0.5px 0px 0 black;
 }
-}
 
 .former {
   font-family: "Chicle", serif;
   font-size: 2rem;
   font-weight: 300;
+  font-style: italic;
 }
 
 #main {
@@ -66,12 +66,14 @@ body {
 .achievements-dates {
   font-size: 1.7rem;
   font-weight: 800;
+  color: darkgoldenrod;
 }
 
 #list-header {
   font-size: 2rem;
   padding-bottom: 25px;
   font-weight: 500;
+  font-style: italic;
 }
 
 a {
@@ -88,6 +90,8 @@ img {
   height: auto;
   margin: 0 auto;
   border-radius: 6px;
+  border-color: darkgoldenrod;
+  border-style: solid;
 }
 
 #img-div {
@@ -95,6 +99,8 @@ img {
   padding: 20px 20px 20px 20px;
   margin: 0;
   border-radius: 6px;
+  border-color: darkgoldenrod;
+  border-style: solid;
 }
 
 #img-caption {
@@ -110,9 +116,11 @@ img {
   color: white;
   background: darkred;
   padding: 1px 20px 20px 20px;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.8rem;
   border-radius: 6px;
+  border-color: darkgoldenrod;
+  border-style: solid;
 }
 
 ul {
