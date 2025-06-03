@@ -11,6 +11,7 @@ body {
   font-size: 1.7rem;
   text-align: center;
   color: darkred;
+  background: #f0f0f0;
 }
 
 .first-letter {
@@ -18,14 +19,14 @@ body {
   font-size: 6.2rem;
   color: darkred;
   text-shadow: 
-    -4px -0.6px 0 black,
-    0px -0.5px 0 black,
-    0.5px -0.5px 0 black,
-    0.5px 0px 0 black,
-    0.5px 0.5px 0 black,
-    0px 0.5px 0 black,
-    -0.5px 0.5px 0 black,
-    -0.5px 0px 0 black;
+    -4px -0.6px 0 darkgoldenrod,
+    0px -0.5px 0 darkgoldenrod,
+    0.5px -0.5px 0 darkgoldenrod,
+    0.5px 0px 0 darkgoldenrod,
+    0.5px 0.5px 0 darkgoldenrod,
+    0px 0.5px 0 darkgoldenrod,
+    -0.5px 0.5px 0 darkgoldenrod,
+    -0.5px 0px 0 darkgoldenrod;
 }
 
 .rest-of-name {
@@ -34,14 +35,14 @@ body {
   font-weight: 600;
   color: darkred;
   text-shadow: 
-    -3px -0.6px 0 black,
-    0px -0.5px 0 black,
-    0.5px -0.5px 0 black,
-    0.5px 0px 0 black,
-    0.5px 0.5px 0 black,
-    0px 0.5px 0 black,
-    -0.5px 0.5px 0 black,
-    -0.5px 0px 0 black;
+    -3px -0.6px 0 darkgoldenrod,
+    0px -0.5px 0 darkgoldenrod,
+    0.5px -0.5px 0 darkgoldenrod,
+    0.5px 0px 0 darkgoldenrod,
+    0.5px 0.5px 0 darkgoldenrod,
+    0px 0.5px 0 darkgoldenrod,
+    -0.5px 0.5px 0 darkgoldenrod,
+    -0.5px 0px 0 darkgoldenrod;
 }
 
 .former {
@@ -55,7 +56,7 @@ body {
   margin: 20px 6px;
   padding: 11px;
   border-radius: 6px;
-  background: #2333;
+  background: rgba(178, 205, 205, 0.2);
 }
 
 .achievements {
