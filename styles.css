@@ -48,8 +48,7 @@ body {
 .former {
   font-family: "Chicle", serif;
   font-size: 2rem;
-  font-weight: 300;
-  font-style: italic;
+  font-weight: 500;
 }
 
 #main {
@@ -86,7 +85,7 @@ a:visited {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
   display: block;
   height: auto;
   margin: 0 auto;
@@ -98,14 +97,14 @@ img {
 #img-div {
   background: rgb(250, 248, 248);
   padding: 20px 20px 20px 20px;
-  margin: 0;
+  margin: 0 180px 0 180px;
   border-radius: 6px;
   border-color: darkgoldenrod;
   border-style: solid;
 }
 
 #img-caption {
-  margin: 10px 05px 0;
+  margin: 10px 0 5px 0;
   font-size: 15px;
 }
 
@@ -115,8 +114,10 @@ img {
 
 #tribute-info {
   color: white;
+  max-width: 100%;
+  margin: 0 220px 0 220px;
   background: darkred;
-  padding: 1px 20px 20px 20px;
+  padding: 10px 10px 30px 10px;
   font-weight: 400;
   font-size: 1.8rem;
   border-radius: 6px;
@@ -140,6 +141,35 @@ footer {
   padding-top: 30px;
 }
 
+@media (max-width:1200px) {
+  :root {
+    --base-font-size: 12px; /* Adjust base font size for medium screens */
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  img {
+    max-width: 60%;
+  }
+
+  #img-div {
+    margin: 0 100px;
+    padding: 15px 15px 15px 15px;
+  }
+
+  .achievements {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #tribute-info {
+    margin: 0 120px;
+    padding: 10px 10px 30px 10px;
+  }
+}
+
 @media (max-width:768px) {
   :root {
     --base-font-size: 11px; /* Reduce the font size for smaller screens */
@@ -149,6 +179,15 @@ footer {
     font-size: 4rem;
   }
 
+  img {
+    max-width: 60%;
+  }
+
+  #img-div {
+    margin: 0 30px;
+    padding: 10px 10px 10px 10px;
+  }
+
   .achievements {
     padding-left: 30px;
     padding-right: 10px;
@@ -156,6 +195,7 @@ footer {
 
   #tribute-info {
     padding: 10px 10px 30px 10px;
+    margin: 0 30px;
   }
 }
 
@@ -168,12 +208,22 @@ footer {
     margin: 0px;
   }
 
+  img {
+    max-width: 90%;
+  }
+
+  #img-div {
+    margin: 0px;
+    padding: 5px 5px 5px 5px;
+  }
+
   .achievements {
     padding-left: 15px;
     padding-right: 10px;
   }
 
   #tribute-info {
-    padding: 2px 10px 20px 10px;
+    padding: 10px 10px 30px 10px;
+    margin: 0px;
   }
 }  
